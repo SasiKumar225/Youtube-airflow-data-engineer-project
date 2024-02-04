@@ -1,0 +1,112 @@
+author,comment,published_at
+@yashmatha6180,"I am getting Permission Denied: No AccessKey Presented when i try to run my DAG.
+I have created access keys from my AWS, and have also pasted them in aws_credentials variable. Please Help!!",2024-02-01T10:15:44Z
+@khaliltrabelsi5831,"i had an error after lunching airflow standalone can you help me please ?
+SqlAlchemySessionInterface.__init__() missing 6 required positional arguments: 'sequence', 'schema', 'bind_key', 'use_signer', 'permanent', and 'sid_length'
+i tried pip install Flask-Session but nothing , i had the same error in my wsl and i solved it the flask-session",2024-01-30T23:02:01Z
+@gyungyoonpark,"I want to make my airflow run every hour, but it seems my token is expired (the one that I get with aws sts get-session-token). how can i get aws credentials that has no expiration?
+for example, each time i run, how can i run aws sts get-session-token and make the result into python variable?",2024-01-28T12:51:00Z
+@gyungyoonpark,"this video is so clear and helpful. there are many airflow courses, but this video goes beyond and helps you ""practice"" airflow. hats off to the master and look forward to more awesome videos!!!",2024-01-28T02:21:12Z
+@chiragmadhukar9504,"I was enable to open Airflow on EC2 instance, and establish an SSH connection to my Visual Studio. However, my DAG isn't getting created on Airflow. Can you please help?",2024-01-21T19:28:31Z
+@sumitrawal5770,"after running 'airflow standalone' in EC2 instance, i am getting this error - TypeError: SqlAlchemySessionInterface.__init__() missing 6 required positional arguments: 'sequence', 'schema', 'bind_key', 'use_signer', 'permanent', and 'sid_length' .......can anyone help me to resolve this",2024-01-21T15:03:13Z
+@ndthdproduction2900,"Hello bro can you explain why airflow throw DAG import error: Broken DAG: [/home/ubuntu/airflow/dags/weather_dag.py] Traceback (most recent call last):
+  File ""<frozen importlib._bootstrap>"", line 241, in _call_with_frames_removed
+  File ""/home/ubuntu/airflow/dags/weather_dag.py"", line 8, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+I installed pandas with sudo pip install pandas  but it still there. Could you explain this. Thank you so much for your work !",2024-01-16T17:01:53Z
+@user-dz8ro7xy9h,Simply… your the best,2024-01-13T17:09:28Z
+@pspointssara8472,Excellent presentation. Even though I'm an experienced person still I need to learn a lot from your videos. This reminds me to watch more of your other videos in future. Good work and keep it up.,2024-01-12T05:52:23Z
+@Zelinity,This video has the signature of a master teacher. You introduced key concepts in a way that is simple to understand. Thank you for starting from level 1 without any assumptions of what we viewers/learners bring to the subject.,2024-01-10T14:59:05Z
+@ndrimenan624,Thanks for this wonderful tuto. It’s time for me to practice now 🙏🏽,2024-01-09T00:10:42Z
+@subashpandey518,"in my third task, i followed everything but I still got the error 
+
+PermissionError: No AWSAccessKey was presented.
+[2024-01-05, 21:24:55 UTC] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=weather_dag, task_id=transform_load_weather_data, execution_date=20240105T212338, start_date=20240105T212454, end_date=20240105T212455
+[2024-01-05, 21:24:55 UTC] {standard_task_runner.py:107} ERROR - Failed to execute job 67 for task transform_load_weather_data (No AWSAccessKey was presented.; 13489)
+[2024-01-05, 21:24:55 UTC] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-05, 21:24:55 UTC] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
+
+any solutions for this",2024-01-05T21:29:43Z
+@jyothikasiri4008,When import DAG from airflow it shows Module airflow not found can you please guide?,2023-12-27T04:25:37Z
+@onuhmichael4312,"Helped me to upskill my knowledge, Awesome tutorial keep it up!!!",2023-12-26T11:47:52Z
+@mohamedelbrawy1222,"I am very grateful to see this kind of teaching, and I have searched a lot to see a way to connect airflow to the free instance I found a blog on medium that demonstrates that: ( How to Install Apache Airflow on AWS EC2 Instance?)",2023-12-25T23:44:47Z
+@zahraelhaddi6980,thank you so much. i did this on azure but the connection part is different than aws and it didnt work,2023-12-19T09:46:15Z
+@hellowillow_YT,I've been looking for an ETL project videos that I can follow to learn basic data engineering stuff and finally I found your video! Thank you for this!,2023-12-19T02:20:01Z
+@user-sf4mm8dp3s,Airflow standalone gives an error saying ' No response from Gunicorn master within120 seconds,2023-12-15T08:18:07Z
+@vaibhavpawar3403,Very detailed and basics tutorial with actual hands-on recorded. No PPT's simply a basic teaching which is very helpful for data engineer.,2023-12-13T04:47:31Z
+@abhijeetsuryawanshi4064,Great video 👍👍👍👍👍,2023-12-09T19:10:26Z
+@Chandu_Art,"Being an aspiring data engineer, this project is really helpful . Thank you so much for this content :)",2023-12-05T17:55:40Z
+@mudasurbasha5742,I'm struck at airflow standalone command after running this command it continuessly kept printing like conversation between webserver and triggered. Please help me out,2023-11-30T16:30:57Z
+@ahmeddadjio2003,great video!!!please can i help me with the installation of airflow because i have a few problems!,2023-11-28T12:02:19Z
+@kerryw6361,This is really good info! Thank you! One possible area to further advance this video is to upgrade the final task by loading data to an actual database (PostgreSQL for example).,2023-11-18T17:16:58Z
+@joshuaroberts3987,when i connected my vscode to my EC2 instance i didnt get all those files in my vscode. just the .py file.  i didnt get airflow file or any other files? please help!,2023-11-08T18:58:47Z
+@Dataengineer-ci8fe,"Thank you so much for the video, just have a question, how can we make the airflow scheduler keep running after exit ssh? I noticed that the airflow scheduler stopped running after a while or if you exit the connection interface to ec2.",2023-11-04T19:02:29Z
+@flaskwater44,Great tutorial!  Thank You.,2023-10-25T03:51:51Z
+@AlmirTvojDrug,"Thank you for this good end-to-end example. However, there are some overheads, e.g. you don't need AWS STS tokens, AWS CLI setup is enough. Also, there is no need to IAM role for EC2. Greetings from Croatia!",2023-10-18T22:37:15Z
+@Fordalo,my guy is 100%  nigerian,2023-10-14T18:10:38Z
+@manaschauhan2418,"Amazing explanation, I've tried with Azure VM, if anyone is trying with that installation steps for airflow will be little bit different",2023-10-13T09:46:55Z
+@guidysoll,Thank you very much for the amazing content. Already subscribed to your channel.,2023-10-08T18:33:41Z
+@user-ey7dp7sh5o,"Hi,
+My DAG breaks because of ""import pandas as pd"". It's giving me below error is airflow:
+Broken DAG: [/home/ubuntu/airflow/dags/weather_api_etl_asp.py] Traceback (most recent call last):
+  File ""<frozen importlib._bootstrap>"", line 241, in _call_with_frames_removed
+  File ""/home/ubuntu/airflow/dags/weather_api_etl_asp.py"", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+I've pandas installed on my EC2 instance.",2023-10-07T20:26:22Z
+@brayanrobertosanchezfigueroa,"if we are work in venv, we cant use sudo",2023-10-01T21:02:34Z
+@jerbear97,"excellent vibe, i love it. other tutorial make me sleep",2023-09-30T05:56:26Z
+@vrushalip1110,I am trying to do this project but whenever I hit run button in airflow for the first dag (is_weather_api_ready) my SSH in VS code starts reconnecting and airflow just loads doesn't give output. If anyone can help would really appreciated.,2023-09-15T20:45:04Z
+@DEEKSHITH-bw6bo,"I am getting the error at the last step, i.e to store the csv file in the s3 bucket. can you please help me with that 
+the log file shows like-- ERROR - Failed to execute job 42 for task transform_load_weather_data ([Errno 22] The provided token is malformed or otherwise invalid.; 54783)",2023-09-14T20:36:56Z
+@user-ue8ut8uu2g,MySQL vs PostgreSQL . Which one should i go for as a begineer,2023-09-09T14:49:01Z
+@ThanmayiR,"Access key for openweather is not working when integrated with airflow, but it is working fine if used without airflow. Any reason why this could be happening?",2023-09-06T23:21:49Z
+@AL-kn9wd,"without using of AWS access key it will work too, I think you just had to wait few seconds longer. I liked this project and hope to see more!",2023-08-27T18:20:22Z
+@ashraf950901,Help. I can't remote connect my vscode. It says could not establish connection,2023-08-22T15:47:39Z
+@stenardt,Excellent tutorial,2023-08-15T06:27:41Z
+@ahm_mask5161,Your channel is pure gold,2023-08-13T17:25:32Z
+@nikhilkuttan1447,"when I do airflow standalone I get this error ---> ERROR - Triggerer's async thread was blocked for 0.31 seconds, likely by a badly-written trigger. Set PYTHONASYNCIODEBUG=1 to get more information on overrunning coroutines
+
+Did anyone face this issue ?",2023-08-10T20:56:38Z
+@seth_king_codes,"at 58:41 you say to save the python file and it should sync to airflow, ive waited several minutes but dont see any the dag appearing
+
+how do i ensure hte file is saved? or can i see even where it failed to be uploaded to airflow?",2023-08-10T18:48:41Z
+@seth_king_codes,amazing man...would love more airflow/dags/python tutorials and also maybe how i can use with scraping data..cheers!,2023-08-10T14:55:58Z
+@adeyinkaadegbenro9645,"Ola, you dey try, nice one",2023-08-09T17:16:04Z
+@ishanpatil2017,can i add this project in resme?,2023-08-07T10:38:13Z
+@ezechukwufidelis5978,you're good. I am looking forward to the next video.,2023-08-04T11:34:50Z
+@swarupsaha9451,its not taking me to the airflow login page with 8080,2023-08-02T19:15:24Z
+@godswillomonkhodion6393,"each time i trigger my dag, it does not seem to respond. the border line around each task is always white. my might likely be the problem?
+i also noticed my auto refresh in the graph page does not stay active like yours. it is deactivated even when i try to activate it",2023-08-01T20:26:17Z
+@user-cp5wf1tl7w,"Thank you so much, my father",2023-07-25T09:04:16Z
+@murilloalves14,This was just what I was looking for! Now it's time to apply it on my own projects. Keep the good work! Big thank you from Brazil!,2023-07-18T21:20:34Z
+@SonuKumar-fn1gn,Thank you so much for the video. ❤😊,2023-07-18T21:05:36Z
+@vaibhavverma1340,"It was excellent sessions no doubt, can you please tell us if we want to take multiple country's like, India, America, France, ... etc then how to do that in that case ??????",2023-07-15T11:59:57Z
+@user-ci5fy3vr7d,Awesome explanation,2023-07-13T02:42:31Z
+@syedhashir5014,i want data for every city in a particular country how can I do it,2023-07-06T15:09:06Z
+@syedhashir5014,great project share ur linkedin profile.,2023-07-06T05:32:38Z
+@ikennaochei3027,"Great tutorial. However can you show how not to hard code the critical information like key id, secret key and the rest?",2023-07-06T04:40:26Z
+@biloloonguesamuel1940,hi i can install panda package in airflow container for docker?,2023-07-03T19:47:50Z
+@BI-Rahul,"I have followed the exact same steps this weekend but this time i am encountering error when I say airflow standalone. The same exact setps I followed last weekend was working flawlessly. Below is the error I am getting this time, Any help would be appreciated. Error:
+
+pydantic.errors.PydanticUserError: A non-annotated attribute was detected: `dag_id = <class 'str'>`. All model fields require a type annotation; if `dag_id` is not meant to be a field, you may be able to resolve this error by annotating it as a `ClassVar` or updating `model_config['ignored_types']`.",2023-07-02T08:54:21Z
+@Oikawa_13,Thank you so much,2023-06-29T22:40:05Z
+@rex2758,Thanks for taking the time to talk this video out!,2023-06-29T00:55:40Z
+@JuanCruz-nu4mg,"I was able to do this just fine, I had 2 issues though, the t2.small didnt have enough memory, it kept freezing up, so I had to use a t2.medium instance, then it worked perfectly!",2023-06-28T14:34:40Z
+@shwetabhat9981,Amazing !! Looking forward to many more,2023-06-27T05:45:13Z
+@devangpatel1341,You are clear!!,2023-06-27T01:44:49Z
+@peterkatongole5984,Awesome project. Well explained,2023-06-25T11:13:17Z
+@BI-Rahul,"This video is an absolute game-changer for anyone looking to build and automate Python ETL pipelines with Airflow on AWS EC2!
+
+Waiting for part 2!",2023-06-24T16:40:12Z
+@SanjeevKumar-dr6qj,thank you for this tutorial,2023-06-24T16:00:59Z
+@user-mr6gg5gv3o,"congratulation, good job, part 2, dont forget",2023-06-24T11:33:45Z
+@ahmedayodele3299,This tutorial is great. Looking up to more videos. You got a follower.,2023-06-18T15:50:03Z
+@user-cg3vz2ug7w,"Thank you for this amazing, well-explained project on apache airflow. I hope you'll make a tuto on apache superset too.",2023-06-18T13:40:48Z
+@shanevarnum,Good tutorial,2023-06-17T12:20:15Z
+@nehalverma1444,This is awesome! Thanks a lot,2023-06-17T09:12:19Z
+@sachasmart7139,Really good tutorial. Nicely done. Looking forward to part 2!,2023-06-15T01:24:38Z
+@obinnaasiegbu2052,This is the bomb! Ose!,2023-06-11T09:51:28Z
