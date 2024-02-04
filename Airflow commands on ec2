@@ -1,0 +1,17 @@
+ssh into the ec2 instance connect 
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3.10-venv
+#create a virtual python evironment
+python3 -m venv venv
+source venv/bin/activate
+
+pip install 'apache-airflow==2.8.1' \
+ --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.1/constraints-3.8.txt"
+
+airflow db init
+
+airflow users create -u airflow -f airflow -l airflow -r Admin -e airflow@gmail.com
+
+airflow webserver -p 8080 &
+airflow scheduler
